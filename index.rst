@@ -2,5 +2,4 @@
 Ensign Daft Punk
 ================
 
-
-![Ensign Daft Punk](https://i.imgur.com/rdQQTNR.png)
+.. image:: https://i.imgur.com/rdQQTNR.png
