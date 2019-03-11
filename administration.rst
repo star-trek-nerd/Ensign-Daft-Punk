@@ -8,9 +8,9 @@ Toggles the automatic deletion of the user's successful command message to preve
 
 Usuage:
 
-.. codeblock:: 
+.. codeblock:: JSON
 
    .delmsgoncmd
-.delmsgoncmd channel enable
-.delmsgoncmd channel inherit
-.delmsgoncmd list
+   .delmsgoncmd channel enable
+   .delmsgoncmd channel inherit
+   .delmsgoncmd list
