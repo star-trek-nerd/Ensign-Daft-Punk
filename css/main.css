@@ -1,0 +1,480 @@
+.wrapper-main {
+    height: 100%
+}
+
+.commands-list-container {
+    font-family: NotoSans, sans-serif;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 40px
+}
+
+.cl-header {
+    align-items: center;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px
+}
+
+.cl-header h2 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 300px
+}
+
+.cl-header img {
+    margin-right: 20px;
+    max-width: 20px
+}
+
+.cl-header button {
+    background: #1a1a1a;
+    border: 0;
+    color: #fff;
+    font-family: NotoSans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    width: 260px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.cl-header button img {
+    margin-right: 0
+}
+
+.cl-header button:hover {
+    background: #333
+}
+
+.cl-sub-header {
+    align-items: center;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: space-between
+}
+
+.cl-sub-header * {
+    display: inline-block
+}
+
+.modules-header {
+    align-items: center;
+    background: #1a1a1a;
+    color: #fff;
+    display: inline-flex;
+    font-family: NotoSans;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 20px;
+    width: 200px
+}
+
+.modules-header img {
+    width: 15px
+}
+
+.modules-all {
+    margin-left: 20px
+}
+
+.modules-all button {
+    background: #1a1a1a;
+    border: 1px solid #707070;
+    color: #fff;
+    font-family: NotoSans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px
+}
+
+.module-name.all.selected {
+    background: #fff;
+    color: #1a1a1a
+}
+
+.search-wrap {
+    margin-left: 20px;
+    padding-right: 20px
+}
+
+.search-wrap input {
+    background: #1a1a1a;
+    border: 0;
+    color: #fff;
+    font-family: NotoSans, serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    outline-color: #111;
+    padding: .5rem 1rem;
+    width: 260px
+}
+
+.search-wrap input::-webkit-input-placeholder {
+    color: #b3b3b3
+}
+
+.search-wrap input::-moz-placeholder {
+    color: #b3b3b3
+}
+
+.search-wrap input::-ms-input-placeholder {
+    color: #b3b3b3
+}
+
+.search-wrap input::placeholder {
+    color: #b3b3b3
+}
+
+.modules-wrap {
+    align-items: center;
+    display: flex;
+    width: 48%
+}
+
+.modules-wrap h2 {
+    align-self: center;
+    color: #484848;
+    font-weight: 700;
+    margin: -10px 40px 0 0;
+    width: 25%
+}
+
+.modules {
+    background: #1a1a1a;
+    display: inline-block;
+    padding: 20px;
+    width: 100%
+}
+
+.module-name,
+.modules {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.module-name {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: NotoSans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0 16px 10px 0;
+    padding: 7.5px 9.5px
+}
+
+.module-name input {
+    margin-right: 5px
+}
+
+.module {
+    display: inline-block;
+    font-family: NotoSans, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #010101;
+    padding: 5px 7px
+}
+
+.module-name.administration {
+    background: rgba(0, 155, 191, .3);
+    border: 1px solid #009bbf
+}
+
+.administration,
+.administration.selected {
+    background: rgba(0, 156, 191, .8)
+}
+
+.module-name.customreactions {
+    background: rgba(0, 91, 211, .3);
+    border: 1px solid #005bd3
+}
+
+.customreactions,
+.customreactions.selected {
+    background: rgba(0, 91, 211, .78)
+}
+
+.module-name.gambling {
+    background: rgba(45, 41, 170, .3);
+    border: 1px solid #2d29aa
+}
+
+.gambling,
+.gambling.selected {
+    background: rgba(45, 41, 170, .79)
+}
+
+.module-name.games {
+    background: rgba(108, 33, 174, .3);
+    border: 1px solid #6c21ae
+}
+
+.games,
+.games.selected {
+    background: rgba(108, 33, 174, .75)
+}
+
+.module-name.help {
+    background: rgba(151, 45, 182, .3);
+    border: 1px solid #972db6
+}
+
+.help,
+.help.selected {
+    background: rgba(150, 45, 182, .84)
+}
+
+.module-name.music {
+    background: rgba(197, 37, 136, .3);
+    border: 1px solid #c52588
+}
+
+.music,
+.music.selected {
+    background: rgba(197, 37, 136, .8)
+}
+
+.module-name.nsfw {
+    background: rgba(209, 40, 52, .3);
+    border: 1px solid #d12834
+}
+
+.nsfw,
+.nsfw.selected {
+    background: rgba(209, 40, 51, .78)
+}
+
+.module-name.permissions {
+    background: rgba(211, 104, 24, .3);
+    border: 1px solid #d36818
+}
+
+.permissions,
+.permissions.selected {
+    background: rgba(211, 105, 24, .78)
+}
+
+.module-name.pokemon {
+    background: rgba(211, 168, 14, .3);
+    border: 1px solid #d3a80e
+}
+
+.pokemon,
+.pokemon.selected {
+    background: rgba(211, 168, 14, .8)
+}
+
+.module-name.searches {
+    background: rgba(158, 197, 0, .3);
+    border: 1px solid #9ec500
+}
+
+.searches,
+.searches.selected {
+    background: rgba(158, 197, 0, .8)
+}
+
+.module-name.utility {
+    background: rgba(66, 184, 52, .3);
+    border: 1px solid #42b834
+}
+
+.utility,
+.utility.selected {
+    background: rgba(65, 184, 52, .77)
+}
+
+.module-name.xp {
+    background: rgba(0, 157, 94, .3);
+    border: 1px solid #009d5e
+}
+
+.xp,
+.xp.selected {
+    background: rgba(0, 157, 94, .82)
+}
+
+.commands {
+    background: #fff
+}
+
+.command,
+.commands-header {
+    display: grid;
+    font-family: NotoSans, sans-serif;
+    font-weight: 700;
+    grid-template-columns: 22% 39% 39%
+}
+
+.commands-header {
+    background: #0d0d0d;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 1.5rem 0
+}
+
+.commands-header p {
+    padding-left: 20px
+}
+
+.command {
+    font-family: NotoSans, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 1;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+
+.command.enter {
+    opacity: 0
+}
+
+.command div {
+    color: #fff;
+    padding: 20px
+}
+
+.command div:first-child,
+.command div:last-child {
+    background: rgba(0, 0, 0, .9)
+}
+
+.command div:nth-child(2) {
+    background: rgba(0, 0, 0, .88)
+}
+
+.command span:not(.module) {
+    display: block
+}
+
+.command:nth-child(odd) {
+    background: rgba(0, 0, 0, .1)
+}
+
+.command-name {
+    color: #fff!important;
+    font-family: NotoSans, sans-serif;
+    font-weight: 700
+}
+
+.description,
+.usage {
+    color: #ccc!important
+}
+
+.description a {
+    color: #fff
+}
+
+.description-warning {
+    align-items: center;
+    color: #fff;
+    display: inline-flex;
+    font-family: NotoSans, sans-serif;
+    font-size: .8125rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase
+}
+
+.description-warning span {
+    display: inline-block!important
+}
+
+.description-warning .permission {
+    background: #7289da;
+    margin: 5px 0 5px 10px;
+    padding: 5px 7px;
+    text-shadow: 1px 1px 2px #010101
+}
+
+@media screen and (max-width:992px) {
+    .modules-header {
+        width: 150px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cl-headers-wrap {
+        background: #0d0d0d;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0
+    }
+    .cl-header h2,
+    .search-wrap input {
+        width: auto
+    }
+    .cl-header img,
+    .modules-all,
+    .modules-header,
+    .suggest-feature {
+        display: none
+    }
+    .cl-header,
+    .cl-sub-header {
+        background: transparent
+    }
+    .commands,
+    .commands-list-container {
+        padding: 20px
+    }
+    .commands {
+        background: #1a1a1a
+    }
+    .commands-header {
+        display: none
+    }
+    .command {
+        display: block;
+        margin-bottom: 20px
+    }
+    .command div {
+        padding: 10px
+    }
+    .command div:first-child,
+    .command div:nth-child(2) {
+        background: #333
+    }
+    .command div:last-child {
+        background: #2b2b2b
+    }
+    .command-name {
+        display: flex;
+        justify-content: space-between
+    }
+    .module {
+        margin-top: 0
+    }
+    .usage {
+        align-items: baseline;
+        display: flex
+    }
+    .usage:before {
+        content: "Usage";
+        font-family: NotoSans, sans-serif;
+        color: #fff;
+        font-size: .8125rem;
+        font-weight: 700;
+        margin-right: 10px;
+        text-transform: uppercase
+    }
+}
